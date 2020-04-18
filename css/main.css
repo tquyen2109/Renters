@@ -117,3 +117,17 @@ body {
 .featured{
   background: var(--mainGrey);
 }
+/*contact section */
+.contact{
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+.contact-btn{
+  background: transparent;
+  border: 0.1rem solid var(--mainWhite);
+  color: var(--mainWhite);
+}
+.contact-btn:hover{
+  background: var(--mainWhite);
+  color: var(--mainGreen);
+}
