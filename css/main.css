@@ -166,3 +166,53 @@ body {
 .service-link:hover{
   color: var(--mainWhite);
 }
+/* gallery section */
+.gallery-btn:hover{
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+.gallery-img-container{
+  position: relative;
+  transition: all 1s linear;
+  overflow: hidden;
+}
+.gallery-img-container:hover{
+  background: rgba(0,0,0,0.9);
+}
+.gallery-img{
+  transition: all 1s linear;
+}
+.gallery-img-container:hover .gallery-img{
+  opacity: 0.3;
+}
+.gallery-info{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: var(--mainGreen);
+  transform: translate(-50%,100%);
+  color: var(--mainWhite);
+  text-decoration: none;
+  transition: all 0.3 linear;
+}
+.gallery-info:hover{
+  text-decoration: none;
+  color: var(--mainDark);
+}
+.gallery-icon{
+  position: absolute;
+  color: var(--mainWhite);
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%,-50%);
+  transition: all 0.3s linear;
+  opacity: 0;
+  cursor: pointer;
+}
+.gallery-img-container:hover .gallery-info{
+  transform: translate(-50%,0);
+}
+.gallery-img-container:hover .gallery-icon{
+  opacity: 1;
+}
