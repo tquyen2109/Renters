@@ -131,3 +131,38 @@ body {
   background: var(--mainWhite);
   color: var(--mainGreen);
 }
+/*services section */
+.services {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/bannerBcg.jpeg')center/cover
+  fixed no-repeat;
+}
+.services-info-text{
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  transform: translate(-50%);
+  background: var(--mainGreen);
+  margin-bottom: 0;
+  text-decoration: none;
+  color: var(--mainWhite) !important;
+  text-align: center;
+}
+.services-info-text:hover{
+  color: var(--mainDark) !important;
+  text-decoration: none;
+}
+.service-icon{
+  font-size: 2rem;
+  color: var(--mainGreen);
+  padding: 0.5rem;
+  border:0.1rem solid var(--mainGreen);
+  margin-right: 1rem;
+  transition: all 1s ease-in-out;
+}
+.service-icon:hover{
+  background: var(--mainGreen);
+  color: var(--mainGrey);
+}
+.service-link:hover{
+  color: var(--mainWhite);
+}
